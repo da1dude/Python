@@ -1,3 +1,8 @@
+def welcome():
+    print('''
+    Welcome to the Calculator!
+    ''')
+
 #defining the main function to calculate
 def calculate():
 
@@ -59,4 +64,5 @@ def again():
     else:
         again()
 #call calculate() outside the function
+welcome()
 calculate()                
